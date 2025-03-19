@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "starting tasks..."
+sleep 5 & #task 1
+sleep 3 & #task 2
+sleep 2 & #task 3
+
+wait # wait for all bg jobs to complete
+echo "All tasks completed"
