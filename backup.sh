@@ -32,7 +32,7 @@ timestamp=$(date +"%Y%m%d_%H%M%S")
 
 read -p "enter the source directory to backup:" source_dir
 
-if [[ -z "$source_dir" ]]; then # -z will is there any empty input.
+if [[ -z "$source_dir" ]]; then # -z will check, is there any empty input.
         echo "error: No source directory provided."
         exit 1
 fi
