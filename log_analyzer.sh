@@ -26,6 +26,8 @@
 #Process Management
 #Allow users to monitor logs in real-time using tail -f.
 
+#!/bin/bash
+
 default_log_file=/var/log/messages
 default_result=/tmp/log_analyzer.log
 
