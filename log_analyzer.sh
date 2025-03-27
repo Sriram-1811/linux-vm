@@ -27,7 +27,10 @@
 #Allow users to monitor logs in real-time using tail -f.
 
 #!/bin/bash
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
 default_log_file=/var/log/messages
 default_result=/tmp/log_analyzer.log
 
